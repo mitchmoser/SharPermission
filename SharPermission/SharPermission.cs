@@ -1,7 +1,5 @@
-﻿using System;
+using System;
 using System.IO;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Security.AccessControl;
 
@@ -15,13 +13,11 @@ namespace SharPermission
             // Test if input arguments were supplied.
             if (args.Length == 0)
             {
-                Console.WriteLine("Please enter a filepath");
+                Console.WriteLine("Please enter a file path");
                 return;
             }
 
             // Get File Path from Command-line Argument assign to 'path' variable
-            //string[] arguments = Environment.GetCommandLineArgs();
-            //string path = arguments[1];
             string path = args[0];
             Console.WriteLine("Permissions for: {0}\n", path);
 
