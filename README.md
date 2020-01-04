@@ -33,5 +33,4 @@ Permissions for: \\HOSTNAME\share\
 	Type:           Allow
 	Rights:         FullControl
 	Inherited ACE:  False
-
 ```
